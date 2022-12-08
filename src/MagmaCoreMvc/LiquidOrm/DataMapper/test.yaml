@@ -1,0 +1,10 @@
+driver:
+  mysql:
+        dsn: mysql:host=localhost
+        username: test
+        password: 1234
+  pgsql: 
+        dsn: pgsql:host=localhost
+        username: test
+        password: 1234
+

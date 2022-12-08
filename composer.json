@@ -1,19 +1,44 @@
 {
-    "name": "ikonc/magam_core_mvc",
+    "name": "ikonc/magma_core_mvc",
     "description": "PHP MVC Framework for php projects",
+    "keywords": ["framework", "php", "magmacore"],
     "type": "library",
     "license": "MIT",
+    "readme": "",
+    "time": "",
+    "support":{
+        "issues": "https://github.com/ikoncoders/MagmaCore/issues",
+        "source": "https://github.com/ikoncoders/MagmaCore",
+        "wiki": "https://github.com/ikoncoders/MagmaCore/wiki"
+    },
     "autoload": {
         "psr-4": {
-            "Ikonc\\MagamCoreMvc\\": "src/"
+            "Ikonc\\MagmaCoreMvc\\": "src/MagmaCoreMvc"
         }
     },
     "authors": [
         {
             "name": "ikoncoders",
-            "email": "ikoncoders@gmail.com"
+            "email": "ikoncoders@gmail.com",
+            "role": "Developer"
         }
     ],
     "minimum-stability": "dev",
-    "require": {}
+    "require": {
+        "php": "7.4.12|^8.0",
+        "ext-mbstring": "*",
+        "ext-iconv": "*",
+        "ext-pdo": "*",
+        "ext-json": "*",
+        "ext-curl": "*",
+        "ext-simplexml": "*",
+        "twig/twig": "^3.1",
+        "symfony/http-foundation": "^5.2@RC",
+        "symfony/yaml": "^5.2@RC"
+    },
+    "autoload-dev":{
+        "psr-4":{
+            "MagmaCoreMvc\\Tests\\": "tests/"
+        }
+    }
 }

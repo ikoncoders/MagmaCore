@@ -1,0 +1,19 @@
+{
+    "name": "ikonc/magam_core_mvc",
+    "description": "PHP MVC Framework for php projects",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Ikonc\\MagamCoreMvc\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "ikoncoders",
+            "email": "ikoncoders@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}

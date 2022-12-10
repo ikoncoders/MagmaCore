@@ -6,7 +6,6 @@ namespace Ikonc\MagmaCoreMvc\LiquidOrm\QueryBuilder;
 
 use Ikonc\MagmaCoreMvc\Base\Exception\BaseUnexpectedValueException;
 
-
 class QueryBuilderFactory
 {
 
